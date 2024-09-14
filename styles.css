@@ -1,0 +1,83 @@
+body > header {
+    margin: 0px;
+    background-color: blue;
+    color: white;
+    display: flex;
+
+    height: 14vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: cornsilk;
+    margin: 0px;
+    font-size: 2vh;
+}
+
+body > footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    background-color: blue;
+    color: white;
+    display: flex;
+
+    height: 14vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo {
+    color: white;
+}
+
+
+
+#main-header {
+    color: black;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#main-footer {
+    display: flex;
+    height: auto;
+    color: black;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#nav-ul {
+    display: flex;
+    list-style: none;
+}
+
+#nav-ul > li {
+    padding: 8px;
+    margin: 16px;
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border: solid 2px;
+}
+
+#sign-up {
+    text-align: center;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+
+#table {
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+}
